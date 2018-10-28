@@ -1,0 +1,13 @@
+<p>
+  <strong>Title:</strong>
+  <%= @list.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @list.description %>
+</p>
+
+
+<%= link_to 'New List', new_todo_list_path %>
+<%= link_to 'Home', todo_lists_path %>
