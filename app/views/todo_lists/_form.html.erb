@@ -21,6 +21,11 @@
     <%= form.text_field :description, id: :list_description %>
   </div>
 
+  <div class="field">
+    <%= form.label :priority %>
+    <%= form.number_field :priority, id: :list_priority %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
