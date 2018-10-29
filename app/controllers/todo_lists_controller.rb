@@ -38,6 +38,7 @@ class TodoListsController < ApplicationController
   end
 
   def show
+    
   end
 
   private
